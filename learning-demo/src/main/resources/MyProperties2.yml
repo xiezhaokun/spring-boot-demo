@@ -1,0 +1,11 @@
+my:
+  properties:
+    name: 谢照昆1
+    password: 234561
+    addresses:
+      - 北京1
+      - 上海1
+      - 天津1
+    otherMap:
+      attr1: one1
+      attr2: two1
