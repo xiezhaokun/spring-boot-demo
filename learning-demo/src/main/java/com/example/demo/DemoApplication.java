@@ -12,7 +12,10 @@ import org.springframework.context.annotation.PropertySource;
 public class DemoApplication {
 
 	public static void main(String[] args) {
-		SpringApplication.run(DemoApplication.class, args);
+		//SpringApplication.run(DemoApplication.class, args);
+		SpringApplication springApplication = new SpringApplication(DemoApplication.class);
+		springApplication.addInitializers(new MyApplicationContextInitializer());
+		springApplication.run(args);
 	}
 
 }
