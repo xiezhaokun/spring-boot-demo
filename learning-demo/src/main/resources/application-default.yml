@@ -1,7 +1,18 @@
 spring:
   application:
     name: spring-boot-demo
+  datasource:
+    url: jdbc:mysql://127.0.0.1:3306/test?characterEncoding=utf-8&zeroDateTimeBehavior=convertToNull&transformedBitIsBoolean=true&allowMultiQueries=true
+    username: root
+    password: root
+    driver-class-name: com.mysql.jdbc.Driver
+    validation-query: select 1
+
 server:
   port: 9900
   servlet:
     context-path: /spring-boot-demo
+logging:
+  level:
+    com.example.demo : debug
+    org.springframework : debug

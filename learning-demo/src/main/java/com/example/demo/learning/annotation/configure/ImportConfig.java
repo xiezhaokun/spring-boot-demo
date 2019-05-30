@@ -11,7 +11,7 @@ import org.springframework.context.annotation.Import;
 /**
  * @author xiezhaokun
  */
-@Import({MyImportBeanDefinitionRegistrar.class,MyImportSelector.class,Circular.class, Square.class, Triangle.class})
-@Configuration
+/*@Import({MyImportBeanDefinitionRegistrar.class,MyImportSelector.class,Circular.class, Square.class, Triangle.class})
+@Configuration*/
 public class ImportConfig {
 }

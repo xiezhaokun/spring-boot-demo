@@ -5,3 +5,10 @@ server:
   port: 8080
   servlet:
     context-path: /spring-boot-demo
+
+mybatis:
+  mapper-locations: classpath:mapper/**/*.xml
+  configuration:
+    log-impl: org.apache.ibatis.logging.stdout.StdOutImpl
+
+
