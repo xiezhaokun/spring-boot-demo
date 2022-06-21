@@ -19,7 +19,7 @@
 		<java.version>1.8</java.version>
 		<lombok.version>1.16.14</lombok.version>
 		<tk.mybatis.verison>2.1.4</tk.mybatis.verison>
-		<mysql.verision>5.1.26</mysql.verision>
+		<mysql.verision>8.0.28</mysql.verision>
 	</properties>
 
 	<dependencies>
